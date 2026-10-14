@@ -44,8 +44,7 @@ const config = {
     run_worker_first: true,
   },
   observability: {
-    enabled: true,
-    head_sampling_rate: 1,
+    enabled: false,
   },
   secrets: {
     required: ["SUB_STORE_ADMIN_TOKEN", "SUB_STORE_PUBLIC_DOWNLOAD_TOKEN"],
